@@ -140,12 +140,14 @@ nav a {
   font-size: 200%;
 }
 
+/* when hover over selected menu item shade of grey to indicated where mouse is. */
 nav a:hover {
   background-color: #ccc;
 }
 
-nav a.active {
-  color: white;
+/* when click the background color that is selected changest to green */
+nav a:active {
+  background-color: rgb(180, 243, 180);
 }
 
 .avatar_photo{  
@@ -160,17 +162,17 @@ nav a.active {
     font-size: 10px;
   }
 
-  .projects_html{
+  .projects_html_image{
     width: 82%;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
   }
-  .projects_css{
+  .projects_css.image{
     width: 82%;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
   }
-  .projects_html{
+  .projects_html.image{
     width: 82%;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
   }
 }
 
@@ -179,17 +181,17 @@ nav a.active {
   aside {
     display:none;
   }
-  .projects_html{
+  .projects_html.image{
     width: 82%;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
   }
-  .projects_css{
+  .projects_css.projects_css.image{
     width: 82%;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
   }
-  .projects_html{
+  .projects_html.projects_css.image{
     width: 82%;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
   }
 }
 
