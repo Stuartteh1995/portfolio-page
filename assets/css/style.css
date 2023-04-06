@@ -82,6 +82,20 @@ span {
   height: 70% ;
 }
 
+.projects_AIOTravel_img{
+  width: 100%;
+  height: 100%;
+  margin-right: 100px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-right: auto;
+  display: block;
+}
+
+#projects_AIOTravel_headline{
+  text-align: center;
+  margin-top: 100px;
+}
+
 /* rotate image when hover */
 .projects_css_image:hover{
   transform: rotate(6deg);
