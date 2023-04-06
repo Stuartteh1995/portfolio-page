@@ -112,13 +112,14 @@ span {
 }
 
 
-#contact{
+
+#contact {
   margin-top: 20%;
   margin-left: 20%;
   padding: 50px;
-  flex-wrap: wrap;
-  flex-direction: row;
   display: flex;
+  flex-direction: row;
+  align-items: center; /* Aligns items vertically */
 }
 
 .email{
